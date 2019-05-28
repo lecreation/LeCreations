@@ -28,22 +28,19 @@ class HomeOne extends React.Component {
 			   <div className="home-decor">
 			      <div className="home-circle1"><img  src="assets/images/main-banner3.png" alt="" /></div>
 			      <div className="home-circle2"><img src="assets/images/main-banner12.png" alt="" /></div>
-			      <div className="home-circle3"><img src="assets/images/main-banner1.png" alt="" /></div>
+			      <div className="home-circle3"><img src="assets/images/main-banner1.png" alt="" width="200px" /></div>
 			   </div>
 			   <div className="container">
 			      <div className="row">
 			         <div className="col-md-5">
 			            <div className="home-contain">
 			               <div>
-			                  <img src="assets/images/logoimage.png" alt="caption-img" className="caption-img" />
-			                  <h4>Landing page for</h4>
-			                  <h1>t<span className="f-bold">o</span>v<span className="f-bold">o</span>
-			                     <span className="f-bold f-color">app</span>
+			                  <img src="assets/images/faviconL.png" alt="caption-img" className="caption-img" width="100px"/>
+			                  <h4></h4>
+			                  <h1><span className="f-bold">LeC</span>reations
 			                  </h1>
-			                  <p>Enhance your business ideas with Powerful, Responsive, Elegant TOVO Theme.</p>
-			                  <a href={null}><img src="assets/images/appstore.png" alt="appstore" className="store" /></a>
-			                  <a href={null}><img className="ml-10 store" src="assets/images/play-store.png" alt="play-store" /></a>
-			               </div>
+			                  <p>Aportando las mejores Ideas a tu imagen Corporativa</p>
+			                  </div>
 			            </div>
 			         </div>
 			         <div className="col-sm-6 offset-md-1">
