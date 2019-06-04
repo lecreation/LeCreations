@@ -403,7 +403,7 @@ ul {
   background-size: 300% 100%;
   transition: all .4s ease-in-out;
   &.theme-color {
-    background-image: linear-gradient(to right, #19d3dc, #18e7d3, #18e7d3, #19d2dd);
+    background-image: linear-gradient(to right, rgb(98, 99, 173), rgb(129, 130, 187), rgb(112, 113, 177), rgb(91, 92, 163));
   }
   &:hover {
     background-position: 100% 0;
@@ -2922,7 +2922,7 @@ iframe.video-play {
       width: 100px;
       height: 100px;
       line-height: 2.3;
-      background-image: linear-gradient(to right, #19d3dc, #18e7d3, #18e7d3);
+      background-image: linear-gradient(to right, #325fc0, #2471b9, #2967ad);
     }
   }
 }

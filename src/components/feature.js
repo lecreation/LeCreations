@@ -7,7 +7,7 @@ class Feature extends React.Component {
   	return (
   		<section id="feature" className="feature">
          <div className="feature-decor">
-            <div className="feature-circle1"><img src="assets/images/feature2.png" alt="" /></div>
+            <div className="feature-circle1"><img src="assets/images/feature2.png" alt="" /> </div>
          </div>
          <div className="container">
             <div className="row">
@@ -17,7 +17,7 @@ class Feature extends React.Component {
                <div className="offset-lg-4 col-lg-8">
                   <div className="row">
                      <div className="col-sm-12 mrgn-md-top">
-                        <h2 className="title">features of<span> tovo</span></h2>
+                        <h2 className="title"><span>S</span>ervicios</h2>
                      </div>
                      <div className="col-12 col-md-6">
                         <ul className="feature-style">
@@ -26,7 +26,7 @@ class Feature extends React.Component {
                                  <img src="assets/images/icon/1.png" alt="icon" />
                               </div>
                               <div className="feature-subtitle">
-                                 <h3>user friendly</h3>
+                                 <h3>Diseño Corporativo</h3>
                               </div>
                               <div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -37,7 +37,7 @@ class Feature extends React.Component {
                                  <img src="assets/images/icon/3.png" alt="icon" />
                               </div>
                               <div className="feature-subtitle">
-                                 <h3>high performance</h3>
+                                 <h3>Diseño Grafico</h3>
                               </div>
                               <div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -48,7 +48,7 @@ class Feature extends React.Component {
                                  <img src="assets/images/icon/5.png" alt="icon" />
                               </div>
                               <div className="feature-subtitle">
-                                 <h3>unlimited features</h3>
+                                 <h3>SEO & SEM</h3>
                               </div>
                               <div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -63,7 +63,7 @@ class Feature extends React.Component {
                                  <img src="assets/images/icon/2.png" alt="icon" />
                               </div>
                               <div className="feature-subtitle">
-                                 <h3>quick update</h3>
+                                 <h3>Diseño Web</h3>
                               </div>
                               <div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -74,7 +74,7 @@ class Feature extends React.Component {
                                  <img src="assets/images/icon/4.png" alt="icon" />
                               </div>
                               <div className="feature-subtitle">
-                                 <h3>100% secure</h3>
+                                 <h3>Web App</h3>
                               </div>
                               <div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -85,7 +85,7 @@ class Feature extends React.Component {
                                  <img src="assets/images/icon/6.png" alt="icon" />
                               </div>
                               <div className="feature-subtitle">
-                                 <h3>24 x 7 support</h3>
+                                 <h3>Community Management</h3>
                               </div>
                               <div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>

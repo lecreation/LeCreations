@@ -64,23 +64,23 @@ class HomeOne extends React.Component {
 			{/*ScreenShot Component*/}
 			<ScreenShot />
 
-			{/*Team Component*/}
-			<Team />
-
-			{/*Blog Component*/}
-			<Blog />
+			{/*Team Component
+			<Team />*/}
 
 			{/*Price Component*/}
 			<Price />
 			
-			{/*Testimonial Component*/}
-			<Testimonial />
-			
-			{/*Contact Component*/}
-			<Contact />
+			{/*Blog Component*/}
+			<Blog />
 
-			{/*Subscription Component*/}
-			<Subscribe />
+			{/*Testimonial Component
+			<Testimonial />*/}
+			
+			{/*Contact Component
+			<Contact />*/}
+
+			{/*Subscription Component
+			<Subscribe />*/}
 
 			{/*Footer Component*/}
 			<Footer />

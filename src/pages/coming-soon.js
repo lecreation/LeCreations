@@ -47,16 +47,16 @@ class ComingSoon extends React.Component {
                         <div className="fadeInLeft-land-caption text-center">
                             <div className="">
                                 <div>
-                                    <img src="assets/images/logoimage.png" alt="caption-img" className="caption-img" />
+                                    <img src="assets/images/faviconL.png" alt="caption-img" className="caption-img" width="100px"/>
                                     <div className="clock-box">
-                                        <h3>We Are Coming soon</h3>
-                                        <p>Please check back again within Some Days as We're Pretty Close</p>
+                                        <h3>Regresa Pronto...</h3>
+                                        <p>Con la intención de lograr un mensaje más claro, estamos realizando mejoras para ti.</p>
                                         <Countdown date={new Date(1564231136000)} renderer={renderer} />,
                                         
                                     </div>
 
-                                    <a href=""><img src="assets/images/appstore.png" alt="appstore" className="store" /></a>
-                                    <a href=""><img className="ml-4 store" src="assets/images/play-store.png" alt="play-store" /></a>
+                                    {/* <a href=""><img src="assets/images/appstore.png" alt="appstore" className="store" /></a>
+                                    <a href=""><img className="ml-4 store" src="assets/images/play-store.png" alt="play-store" /></a> */}
                                 </div>
                             </div>
 
@@ -65,7 +65,7 @@ class ComingSoon extends React.Component {
                 </div>
             </div>
         </section>
-        {/*home section end*/}
+        {/*home section end
 
         <section className="coming-soon md-pt-0" data-anchor="footer">
             <div className="container">
@@ -87,7 +87,7 @@ class ComingSoon extends React.Component {
                     </div>
                 </div>
             </div>
-        </section>
+        </section>*/}
 
         {/*Footer Section start*/}
         <footer className="bg-light">
@@ -95,7 +95,7 @@ class ComingSoon extends React.Component {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="copyright-section">
-                            <p>2018-19 Copyright © By Themeforest Powered By Pixel Strap</p>
+                            <p>2018-19 Copyright © By LeCreations</p>
                         </div>
                     </div>
                 </div>

@@ -18,32 +18,30 @@ class Navbar extends React.Component {
 			               <a className="nav-link" href="#about">Nosotros</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href="#feature">feature</a>
+			               <a className="nav-link" href="#feature">Servicios</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href="#screenshot">screenshot</a>
-			            </li>
-			            <li className="nav-item">
-			               <a className="nav-link" href="#team">team</a>
+			               <a className="nav-link" href="#screenshot">Portafolio</a>
 			            </li>
 			            <li className="nav-item dropdown">
-			               <a className="nav-link dropdown-toggle" href="#blog"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">blog</a>
-			               <ul className="dropdown-menu">
+			               <a className="nav-link" href="#blog">Blog</a>
+								{/* data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+								<ul className="dropdown-menu">
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/blog-list`} target="_blank">blog list</a></li>
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/blog-details`} target="_blank">blog details</a></li>
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/blog-leftside`} target="_blank">leftsidebar</a></li>
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/blog-rightside`} target="_blank">rightsidebar</a></li>
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/blog-left-sidebar`} target="_blank">details leftsidebar</a></li>
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/blog-right-sidebar`} target="_blank">details rightsidebar</a></li>
-			               </ul>
+			               </ul> */}
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href="#price" data-menuanchor="price">price</a>
+			               <a className="nav-link" href="#price" data-menuanchor="price">Cotizar Proyecto</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href="#contact" data-menuanchor="contact">contact us</a>
+			               <a className="nav-link" href="#contact" data-menuanchor="contact">Contactanos</a>
 			            </li>
-			            <li className="nav-item dropdown">
+			            {/* <li className="nav-item dropdown">
 			               <a className="nav-link dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other page</a>
 			               <ul className="dropdown-menu">
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/sign-in`} target="_blank">sign in</a></li>
@@ -56,7 +54,7 @@ class Navbar extends React.Component {
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/download`} target="_blank">Download</a></li>
 			                 <li className="nav-item"><a className="nav-link" href={`${process.env.PUBLIC_URL}/coming-soon`} target="_blank">Coming Soon</a></li>
 			               </ul>
-			            </li>
+			            </li> */}
 		         	</ul>
 		      </div>
 		   </div>

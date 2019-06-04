@@ -62,7 +62,18 @@ class Price extends React.Component {
            <div className="container">
               <div className="row">
                  <div className="col-sm-12">
-                    <OwlCarousel
+
+
+
+
+
+
+
+
+
+
+                     
+                    {/* <OwlCarousel
                         className="price-carousel owl-carousel owl-theme"
                         loop={true}
                         margin={30}
@@ -71,7 +82,7 @@ class Price extends React.Component {
                         responsive={options}
                     >
                        {DataList}
-                    </OwlCarousel>
+                    </OwlCarousel> */}
                  </div>
               </div>
            </div>
