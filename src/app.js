@@ -3,17 +3,16 @@ import Navbar from './components/navbar';
 import About from './components/about';
 import Feature from './components/feature';
 import ScreenShot from './components/screenshot';
-import Team from './components/team';
+// import Team from './components/team';
 import Blog from './components/blog';
 import Price from './components/price';
-import Testimonial from './components/testimonial';
-import Contact from './components/contact';
-import Subscribe from './components/subscribe';
+// import Testimonial from './components/testimonial';
+// import Contact from './components/contact';
+// import Subscribe from './components/subscribe';
 import Footer from './components/footer';
 import Tilt from 'react-tilt';
 
-class HomeOne extends React.Component {
-  render() {
+function App( ) {
   	document.body.classList.remove('landing-page');
 	document.body.classList.remove('home-style');
   	document.body.classList.remove('three');
@@ -86,7 +85,6 @@ class HomeOne extends React.Component {
 			<Footer />
   		</div>
   	);
-  }
 }
 
-export default HomeOne;
+export default App;

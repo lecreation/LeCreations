@@ -2,13 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import NoMatch from './pages/404';
-import App from './home-one';
+import App from './app';
 import BlogDetails from './blog/blog-details';
 import BlogList from './blog/blog-list';
-import BlogLeftSidebar from './blog/blog-leftsidebar';
 import BlogRightSidebar from './blog/blog-rightsidebar';
-import BlogLeftside from './blog/blog-leftside';
-import BlogRightside from './blog/blog-rightside';
 import SignIn from './pages/sign-in';
 import SignUp from './pages/sign-up';
 import ForgetPassword from './pages/forget-pwd';
@@ -19,20 +16,17 @@ import Faq from './pages/faq';
 import Download from './pages/download';
 import ComingSoon from './pages/coming-soon';
 import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class Root extends React.Component {
   render() {
   	return(
-  		<BrowserRouter basename={'/'} >
+  		<Router basename={'/'} >
 		  	<Switch>
 			  <Route exact path={`${process.env.PUBLIC_URL}/home`} component={App}/>
 			  <Route path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 			  <Route path={`${process.env.PUBLIC_URL}/blog-list`} component={BlogList}/>
-			  <Route path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/>
 			  <Route path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/>
-			  <Route path={`${process.env.PUBLIC_URL}/blog-leftside`} component={BlogLeftside}/>
-			  <Route path={`${process.env.PUBLIC_URL}/blog-rightside`} component={BlogRightside}/>
 			  <Route path={`${process.env.PUBLIC_URL}/sign-in`} component={SignIn}/>
 			  <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp}/>
 			  <Route path={`${process.env.PUBLIC_URL}/forget-password`} component={ForgetPassword}/>
@@ -44,7 +38,7 @@ class Root extends React.Component {
 			  <Route path={`${process.env.PUBLIC_URL}/`} component={ComingSoon}/>
 			  <Route component={NoMatch} />
 			</Switch>
-		</BrowserRouter>
+		</Router>
   	);
   }
  }

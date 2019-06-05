@@ -5,26 +5,26 @@ class NavbarBlog extends React.Component {
   	return (
   		<nav className="navbar navbar-expand-lg navbar-light theme-nav fixed-top">
 		   <div className="container">
-		      <a className="navbar-brand" href={`${process.env.PUBLIC_URL}/`}><img src="assets/images/logo.png" alt="logo" /></a>
+		      <a className="navbar-brand" href={`${process.env.PUBLIC_URL}/`}><img src="assets/images/logo.png" alt="logo" height="50px"/></a>
 		      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		         <span className="navbar-toggler-icon"></span>
 		      </button>
 		      <div className="collapse navbar-collapse default-nav" id="navbarSupportedContent">
 		         	<ul className="navbar-nav ml-auto" id="mymenu">
 			            <li className="nav-item">
-			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home-one#home`}>Home</a>
+			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home#home`}>Home</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home-one#about`}>Nosotros</a>
+			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home#about`}>Nosotros</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home-one#feature`}>feature</a>
+			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home#feature`}>feature</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home-one#screenshot`}>screenshot</a>
+			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home#screenshot`}>screenshot</a>
 			            </li>
 			            <li className="nav-item">
-			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home-one#team`}>team</a>
+			               <a className="nav-link" href={`${process.env.PUBLIC_URL}/home#team`}>team</a>
 			            </li>
 			            <li className="nav-item dropdown">
 			               <a className="nav-link dropdown-toggle" href="#blog"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">blog</a>
